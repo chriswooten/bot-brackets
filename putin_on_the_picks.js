@@ -5,7 +5,11 @@ Putin on the Picks
 2015: N/A
 2016: N/A
 2017: https://www.botbrackets.com/edit?id=QdRtotUzzo_gbgt7bEbZon9eH1SDaAJoAmIAAAfhbQAAAAiqbkOnJX-GvW0AAAAIujMoqL2M9SQ
+2018: https://www.botbrackets.com/edit?id=cM4lXdd05eJSAV73vOeLBYp4MryDaAJoAmIAAAfibQAAAAiqbkOnJX-GvW0AAAAIviKKc8g1N08
 */
+
+// Stats not updated from 2017.  Russia is behind the times?
+// Note to self: stop making bots that use hardcoded arrays
 
 // I assume Russia has a hand in the results and that the common thread is
 // vodka consumption per state.  Because I couldn't find vodka consumption per
