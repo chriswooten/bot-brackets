@@ -4,8 +4,10 @@ Won in 2014!
 2013: N/A
 2014: https://www.botbrackets.com/edit?id=YjGGod_ynVQrX9sKei34p1CfWomDaAJoAmIAAAfebQAAAAiqbkOnJX-GvW0AAAAIrmj5mAtYVm8
 2015: https://www.botbrackets.com/edit?id=gZMua8L7toCfGabBep8fyjVuxKSDaAJoAmIAAAffbQAAAAiqbkOnJX-GvW0AAAAIslD1Jl9EJvM
+2016: https://www.botbrackets.com/edit?id=TCJ_jk2qWj8OLYiyyeJALv6mjpiDaAJoAmIAAAfgbQAAAAiqbkOnJX-GvW0AAAAItkVz786dfqk
 */
 
+// won in 2014, despite looking like it would do very poorly.  It must be good, right?
 // http://www.basketball-reference.com/about/factors.html
 
 function CalculateShootingFactor(team)
