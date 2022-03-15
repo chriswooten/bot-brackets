@@ -4,7 +4,10 @@ Won in 2013!
 2013: https://www.botbrackets.com/edit?id=kb7jcfumVDG3rez-L-ZnmAgFuKSDaAJoAmIAAAfdbQAAAAiqbkOnJX-GvW0AAAAIqnnrQ0EDCTQ
 2014: https://www.botbrackets.com/edit?id=76ijHe7EAI2v8mEMm2pGImn2RK6DaAJoAmIAAAfebQAAAAiqbkOnJX-GvW0AAAAIrlcjhUuJ6xU
 2015: https://www.botbrackets.com/edit?id=22Nw9VQ1Up4aZ9fIla00EtsN-imDaAJoAmIAAAffbQAAAAiqbkOnJX-GvW0AAAAIslD1Ya3WACU
+2016: https://www.botbrackets.com/edit?id=sy_aqN44n5mEY9KsLBjm2KI45LyDaAJoAmIAAAfgbQAAAAiqbkOnJX-GvW0AAAAItkVzJLh7Ub4
 */
+
+// won in 2013, so it must still be good, right?
 
 function CalculateShotsOnGoal(team)
 {
@@ -13,6 +16,7 @@ function CalculateShotsOnGoal(team)
 	var ftaWeight = 1;
 
 	return (($(team).FGA * fgaWeight) +
+            // yes, this means we're counting 3 pointers twice...
 			($(team)["3FGA"] * fg3aWeight) +
 			($(team).FTA * ftaWeight));
 }
