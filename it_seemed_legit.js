@@ -8,9 +8,12 @@ Won in 2014!
 2017: https://www.botbrackets.com/edit?id=XXLs-I1uOObTAWgGgpyo-oNjyQKDaAJoAmIAAAfhbQAAAAiqbkOnJX-GvW0AAAAIujMK1ZVfD-k
 2018: https://www.botbrackets.com/edit?id=fKTUfiZZVvNcoLff5vwzfwYpdp-DaAJoAmIAAAfibQAAAAiqbkOnJX-GvW0AAAAIviKK5eIy6yw
 2019: https://www.botbrackets.com/edit?id=djIaSDPlh3v0uREpV7yqAJZdthGDaAJoAmIAAAfjbQAAAAiqbkOnJX-GvW0AAAAIwiO9DFhWfyg
+2020: COVID
+2021: https://www.botbrackets.com/edit?id=nlhJWWrh0UTcynbYO_PFCQILzl-DaAJoAmIAAAflbQAAAAiqbkOnJX-GvW0AAAAIygDzit9Xivo
 */
 
 // won in 2014, despite looking like it would do very poorly.  It must be good, right?
+// wrong.
 // http://www.basketball-reference.com/about/factors.html
 
 function CalculateShootingFactor(team)

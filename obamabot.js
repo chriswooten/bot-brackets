@@ -5,32 +5,41 @@ Obamabot
 2015: N/A
 2016: https://www.botbrackets.com/edit?id=3cDCEkQkhjv6RN6QyaUBMBeXe_2DaAJoAmIAAAfgbQAAAAiqbkOnJX-GvW0AAAAItkVviYkk5KM
 2017: https://www.botbrackets.com/edit?id=8cXeYS0GZNsgux-UPu2tywRWTGeDaAJoAmIAAAfhbQAAAAiqbkOnJX-GvW0AAAAIujM9bgRH84o
+2018: Thanks, Obama
+2019: Thanks, Obama
+2020: COVID
+2021: https://www.botbrackets.com/edit?id=8gl7iE1L5jWeiw7jPIQyswen6miDaAJoAmIAAAflbQAAAAiqbkOnJX-GvW0AAAAIygDzE-KYBkU
 */
 
-// Thanks, Obama.
-// Yes we can
-// Yes we can go with Obama's human bracket.
-// And you know what, we'll use the state that liked him more in 2012 if
-// he didn't pick either one, again.
-// Next time I should fallback on whichever team he picked to make it farthest
-// so I can cut it out with this ridiculous array of voting percent
-// You thought it was time for the Trump bot, but he's too busy at Maralago
-// to make picks.  He's also worried that Obama would steal his picks.
+// Thanks, Obama
+// So I call up Barry and I says, "Yo, Barry!  When you posting that bracket?"
+// And he says, "Chris, let me be clear. I don't think I'm going to make one this
+// year. You'll have to find some other bracket for your world famous Obamabot."
+// So I did.  And that's why you have Biden Bot. But then along comes Thursday
+// and I guess he changed his mind or somethin' because, low and behold,
+// Barry's published has dadgum bracket. So here we go.
+// Thanks, Obama
 
-var winners = [["Villanova","Virginia Tech","Virginia","Florida","SMU","Baylor","Marquette","Duke","Gonzaga","Northwestern","Notre Dame","Bucknell","Maryland","Florida St.","VCU","Arizona","Kansas","Michigan St.","Iowa St.","Purdue","Creighton","Oregon","Michigan","Louisville","North Carolina","Seton Hall","Minnesota","Butler","Cincinnati","UCLA","Wichita St.","Kentucky"],
-["Villanova","Florida","Baylor","Duke","Gonzaga","Notre Dame","Florida St.","Arizona","Kansas","Iowa St.","Oregon","Michigan","North Carolina","Butler","Cincinnati","Kentucky"],
-["Villanova","Duke","Notre Dame","Arizona","Kansas","Michigan","North Carolina","Kentucky"],
-["Duke","Arizona","Kansas","North Carolina"],
-["Duke","North Carolina"],
-["North Carolina"]];
+// https://www.obama.org/2021-ncaa/
+// I gave him UCLA instead of Sparty
+var winners = [["Gonzaga","Missouri","UC Santa Barbara","Ohio","Southern California","Kansas","Oregon","Iowa","Michigan","LSU","Georgetown","Florida St.","UCLA","Texas","Maryland","Alabama","Baylor","North Carolina","Villanova","Purdue","Texas Tech","Arkansas","Virginia Tech","Ohio St.","Illinois","Loyola Chicago","Tennessee","Oklahoma St.","San Diego St.","West Virginia","Rutgers","Houston"],
+["Gonzaga","Ohio","Southern California","Iowa","Michigan","Florida St.","Texas","Alabama","Baylor","Purdue","Texas Tech","Ohio St.","Illinois","Oklahoma St.","San Diego St.","Houston"],
+["Gonzaga","Southern California","Michigan","Texas","Baylor","Ohio St.","Illinois","Houston"],
+["Gonzaga","Michigan","Baylor","Illinois"],
+["Gonzaga","Illinois"],
+["Gonzaga"]];
 
-// Now with fewer bugs.  We can pick Nova, Duke, and UNC!
 if (winners[$Round - 1].indexOf(team1) >= 0)
   	return (1);
 if (winners[$Round - 1].indexOf(team2) >= 0)
   	return (-1);
 
-var popularVote = [51.97,61.97,52.83,51.16,51.16,48.35,50.01,39.08,41.38,60.24,41.38,52.99,60.24,52.83,48.35,38.69,56.16,39.87,57.60,39.08,43.93,58.38,35.54,51.97,61.97,50.67,50.01,50.01,60.24,51.16,44.59,38.36,37.99,48.35,50.01,54.21,51.99,52.36,43.93,66.57,38.03,62.70,54.24,63.35,54.21,33.23,37.80,50.01,48.35,41.38,36.88,58.38,52.65,39.08,43.93,44.09,50.67,37.99,60.24,50.67,50.67,37.99,37.80,37.80]
+// If things don't go his way, Barry's gonna go with the state that voted more for his
+// good buddy Joe in 2020.
+// I should really make this smart enough to know that, say, He thought more fondly
+// of Houston if they get someone like UC Santa Barbara in the championship game...
+// Or maybe something less extreme than that.
+var popularVote = [57.97,65.36,32.29,41.41,54.29,46.48,54.11,45.24,63.48,44.89,41.56,50.01,56.45,54.11,44.89,49.36,50.62,46.48,39.85,60.86,55.4,57.97,58.74,59.26,37.65,46.48,46.48,46.48,46.48,65.36,36.57,60.86,46.48,59.26,48.59,49.45,50.01,43.43,40.96,46.48,46.48,63.48,34.78,60.86,58.74,54.11,45.24,32.29,57.54,50.01,54.11,58.74,37.45,56.45,32.29,54.11,54.29,60.86,29.69,41.41,43.43,54.29,46.48,43.43]
 
 if (popularVote[$1.Position - 1] > popularVote[$2.Position - 1])
   	return (1);
