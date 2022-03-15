@@ -8,9 +8,12 @@ Won in 2013!
 2017: https://www.botbrackets.com/edit?id=QlU0YF8fMzfsIWngG7uGe-RuOsmDaAJoAmIAAAfhbQAAAAiqbkOnJX-GvW0AAAAIujMLVoTfwaE
 2018: https://www.botbrackets.com/edit?id=Iwe2HVDwGpYvfU43CaSzUJPG2w2DaAJoAmIAAAfibQAAAAiqbkOnJX-GvW0AAAAIviKKAOQVepY
 2019: https://www.botbrackets.com/edit?id=wkpEAC62dUw4r3FIepONbPnl33qDaAJoAmIAAAfjbQAAAAiqbkOnJX-GvW0AAAAIwiPmHzJHGAQ
+2020: COVID
+2021: https://www.botbrackets.com/edit?id=TaEtMxpOt_hXSRD2yiM_qEtOseWDaAJoAmIAAAflbQAAAAiqbkOnJX-GvW0AAAAIyfG7rMd_4Bs
 */
 
 // won in 2013, so it must still be good, right?
+// wrong
 
 function CalculateShotsOnGoal(team)
 {
