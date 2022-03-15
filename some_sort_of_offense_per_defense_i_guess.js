@@ -4,6 +4,7 @@ Some sort of offense per defense I guess?
 2014: N/A
 2015: N/A
 2016: https://www.botbrackets.com/edit?id=KFKC1tybw0AN0fKgdxQ189Qx5GGDaAJoAmIAAAfgbQAAAAiqbkOnJX-GvW0AAAAItkXc9ObYbvI
+2017: https://www.botbrackets.com/edit?id=ascAA1Cqjp5g_l8oqMfb4T91KTSDaAJoAmIAAAfhbQAAAAiqbkOnJX-GvW0AAAAIujMLN1sfCgM
 */
 
 // always say never
