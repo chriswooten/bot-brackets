@@ -1,6 +1,7 @@
 /*
 We beat them by that much!
-https://www.botbrackets.com/edit?id=GPbw7b9AL3G24qQdqtRyrSJndqeDaAJoAmIAAAfdbQAAAAiqbkOnJX-GvW0AAAAIqnn_8PPW4iU
+2013: https://www.botbrackets.com/edit?id=GPbw7b9AL3G24qQdqtRyrSJndqeDaAJoAmIAAAfdbQAAAAiqbkOnJX-GvW0AAAAIqnn_8PPW4iU
+2014: N/A
 */
 
 function CalculateAverageMarginOfVictory(team)

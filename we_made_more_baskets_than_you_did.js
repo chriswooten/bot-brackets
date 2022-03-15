@@ -1,6 +1,6 @@
 /*
 We made more baskets than you did
-https://www.botbrackets.com/edit?id=73vkrtbdZCtsqJH5Iuj61BxOmFCDaAJoAmIAAAfdbQAAAAiqbkOnJX-GvW0AAAAIqnnpM4krqh0
+2013: https://www.botbrackets.com/edit?id=73vkrtbdZCtsqJH5Iuj61BxOmFCDaAJoAmIAAAfdbQAAAAiqbkOnJX-GvW0AAAAIqnnpM4krqh0
 */
 
 function CalculateTotalBaskets(team)
