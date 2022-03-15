@@ -5,6 +5,7 @@ Some sort of offense per defense I guess?
 2015: N/A
 2016: https://www.botbrackets.com/edit?id=KFKC1tybw0AN0fKgdxQ189Qx5GGDaAJoAmIAAAfgbQAAAAiqbkOnJX-GvW0AAAAItkXc9ObYbvI
 2017: https://www.botbrackets.com/edit?id=ascAA1Cqjp5g_l8oqMfb4T91KTSDaAJoAmIAAAfhbQAAAAiqbkOnJX-GvW0AAAAIujMLN1sfCgM
+2018: https://www.botbrackets.com/edit?id=IKYPa518_iN-abrZXVz6a8difJGDaAJoAmIAAAfibQAAAAiqbkOnJX-GvW0AAAAIviKLB2MNCfs
 */
 
 // always say never
