@@ -22,6 +22,7 @@ function CalculateShotsOnGoal(team)
 	var ftaWeight = 1;
 
 	return (($(team).FGA * fgaWeight) +
+            // yes, this means we're counting 3 pointers twice...
 			($(team)["3FGA"] * fg3aWeight) +
 			($(team).FTA * ftaWeight));
 }
