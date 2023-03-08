@@ -40,8 +40,9 @@ function pickWinner(team1, team2) {
 
   // Compute team scores
   const team1Score = Object.keys(weights).reduce((acc, stat) => {
-    const team1Stat = team1[stat];
-    const team2Stat = team2[stat];
+    print (stat);
+    const team1Stat = $1[stat];
+    const team2Stat = $2[stat];
     if (team1Stat === undefined || team2Stat === undefined) {
       // Skip undefined stats (from playing non-Division I teams)
       return acc;
