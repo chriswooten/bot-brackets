@@ -1,5 +1,7 @@
+// I think I "fixed" (some) of this, but it seems to historically do worse. Oh well.
 // Enter your script here....
-function pickWinner(team1, team2) {
+function pickWinner()
+{
   // Define weights for each stat
   const weights = {
     RPI: 0.1,
@@ -40,7 +42,6 @@ function pickWinner(team1, team2) {
 
   // Compute team scores
   const team1Score = Object.keys(weights).reduce((acc, stat) => {
-    print (stat);
     const team1Stat = $1[stat];
     const team2Stat = $2[stat];
     if (team1Stat === undefined || team2Stat === undefined) {
@@ -52,14 +53,15 @@ function pickWinner(team1, team2) {
 
   const team2Score = -team1Score;
 
+  print("BPT: team1 = " + team1Score + ", team2 = " + team2Score); // debugging
+
   // Determine winner based on scores
-  if (team1Score > team2Score) {
+  if (team1Score > team2Score)
     // Team 1 wins
-    return team1Score / team2Score;
-  } else {
+    return (1);
+  else
     // Team 2 wins
-    return -team2Score / team1Score;
-  }
+    return (-1);
 }
 
 // Some quick utility functions.... 
@@ -166,9 +168,11 @@ if (!$2.RPI) $2.RPI = CalculateRPI(team2);
 print("team1 = " + $1.RPI + ", team2 = " + $2.RPI); // debugging 
 
 // always say never
+// I guess this will just pick team 1 if we have two 16 seeds in what
+// is either the best or the worst March Madness ever
 if ($2.Seed == 16)
   return (1);
 else if ($1.Seed == 16)
   return -1;
 
-return (pickWinner($1, $2));
+return (pickWinner());
