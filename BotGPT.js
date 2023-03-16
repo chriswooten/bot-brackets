@@ -1,3 +1,22 @@
+// This is certainly not doing what ChatGPT thought it was doing, but
+// it is what it asked for
+// I initially called it BotGPT, but decided to let ChatGPT name it. Of course, it's an
+// AI Language Model and has no personal preferences blah blah blah
+// So RimReaper it is! It's a really good name.
+
+/*
+ 1. HoopPicker
+ 2. BracketBrain
+ 3. MarchMadnessMaster
+ 4. NetPicks
+ 5. DunkBot
+ 6. CourtCrusher
+ 7. BuzzerBeaterPicker
+ 8. RimReaper
+ 9. BallerBot
+10. ShotSelector
+*/
+
 // Enter your script here....
 function pickWinner(team1, team2) {
   // Define weights for each stat
@@ -40,7 +59,6 @@ function pickWinner(team1, team2) {
 
   // Compute team scores
   const team1Score = Object.keys(weights).reduce((acc, stat) => {
-    print (stat);
     const team1Stat = $1[stat];
     const team2Stat = $2[stat];
     if (team1Stat === undefined || team2Stat === undefined) {
@@ -51,6 +69,8 @@ function pickWinner(team1, team2) {
   }, 0);
 
   const team2Score = -team1Score;
+
+  print("GPT: team1 = " + team1Score + ", team2 = " + team2Score); // debugging
 
   // Determine winner based on scores
   if (team1Score > team2Score) {
