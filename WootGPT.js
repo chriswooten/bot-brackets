@@ -1,4 +1,7 @@
-// I think I "fixed" (some) of this, but it seems to historically do worse. Oh well.
+// I think I "fixed" (some) of RimReaper, but this seems to historically do worse. Oh well.
+// It does pick A&M over tu, so it must not be all bad :+1:
+// Also, RimReaper is 100% doing the opposite of what it thinks it is
+
 // Enter your script here....
 function pickWinner()
 {
@@ -53,7 +56,7 @@ function pickWinner()
 
   const team2Score = -team1Score;
 
-  print("BPT: team1 = " + team1Score + ", team2 = " + team2Score); // debugging
+  print("GPT: team1 = " + team1Score + ", team2 = " + team2Score); // debugging
 
   // Determine winner based on scores
   if (team1Score > team2Score)
