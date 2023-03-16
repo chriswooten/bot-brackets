@@ -1,3 +1,8 @@
+// https://github.com/chriswooten/bot-brackets
+/*
+Chat session with ChatGPT for this ought to be at https://github.com/chriswooten/bot-brackets/blob/Resources/chat_gpt_chat_log_20230308.txt
+I apologize for the formatting. If I clean it up, I'll link to it from that txt file instead
+*/
 // This is certainly not doing what ChatGPT thought it was doing, but
 // it is what it asked for
 // I initially called it BotGPT, but decided to let ChatGPT name it. Of course, it's an
